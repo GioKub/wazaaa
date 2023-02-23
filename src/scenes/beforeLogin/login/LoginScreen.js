@@ -123,8 +123,8 @@ const LoginScreen = ({ navigation }) => {
             <Text style={styles.PROD}>
               {/* {Date.get} */}
               {baseUrl === "https://api.georgiancargo.co.uk"
-                ? "you are on *** PRODUCTION***"
-                : "you are on *** STG-TESTING***"}
+                ? "you are on ^^^ PRODUCTION ^^^"
+                : "you are on ^^^ STGAGING ^^^^"}
             </Text>
             {/* <Text style={styles.PROD}>{baseUrl}</Text> */}
           </View>
