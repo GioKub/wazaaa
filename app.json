@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Georgian Cargo",
+    "slug": "cleanSlow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ic_launcher-web.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "icon": "./assets/icon.png",
+      "package": "com.giosens.cleanSlow"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc35445f-f0f3-4484-b4e6-ba82466bb8bf"
+      }
+    }
+  }
+}
